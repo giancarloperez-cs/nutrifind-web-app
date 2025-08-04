@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;   
+}
+body{
+    font-family: "Work Sans", sans-serif;
+    background-color: #F4F1F2;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #000;
+}
+li a{
+    display: block;
+}
+#store-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.light-green {
+    color: #9CB08D;
+}
+#navbar-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding-top: .75rem;
+    text-align: center;
+    /*background-color: rgb(220, 223, 236);  lavender web */
+    background-color: #d9e1db;
+    width: 100%;   
+}
+#hamburger-icon{
+    display: flex;
+    flex-direction:row;
+    align-items: start;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+#profile-icon{
+    display: flex;
+    flex-direction:row;
+    align-items: end;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+}
+#navbar-links{
+    padding-top: 7px;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 100%;
+}
+#hero-image{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.hero{
+    background-position: center;
+    background-color: #F4F1F2;
+    position: relative;
+    width: 100%;
+}
+.hero-button{
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #9CB08D;
+    border: transparent;
+    border-radius: 2.5px;
+    padding: 10px 20px;    
+
+}
+.test{
+    background-color: #F4F1F2;
+    height: 695px;
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+}
+#hero-mid-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
