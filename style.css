@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 html, body{
-    height: 100%;   
+    height: 100%;
+    overflow-x: hidden;
 }
 body{
     font-family: "Work Sans", sans-serif;
@@ -33,6 +34,9 @@ li a{
 .light-green {
     color: #9CB08D;
 }
+/* NAVBAR STYLES */
+/* NAVBAR STYLES */
+/* NAVBAR STYLES */
 #navbar-title{
     display: flex;
     flex-direction: column;
@@ -44,6 +48,7 @@ li a{
     /*background-color: rgb(220, 223, 236);  lavender web */
     background-color: #d9e1db;
     width: 100%;   
+    z-index: 100;
 }
 #hamburger-icon{
     display: flex;
@@ -81,29 +86,12 @@ li a{
     font-family: 'roboto', sans-serif;
 
 }
-#hero-image{
-    width: 100%;
-    height: auto;
-    display: block;
-}
-.hero{
-    background-position: center;
-    background-color: #F4F1F2;
-    position: relative;
-    width: 100%;
-}
-.hero-button{
-    position: absolute;
-    cursor: pointer;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #9CB08D;
-    border: transparent;
-    border-radius: 2.5px;
-    padding: 10px 20px;    
+/* HERO SECTION STYLES */
+/* HERO SECTION STYLES */
+/* HERO SECTION STYLES */
 
-}
+/* HERO SECTION AVOCADO */
+/* CONTENTS */
 .test{
     background-color: #F4F1F2;
     height: 695px;
@@ -160,10 +148,98 @@ li a{
 }
 .test::after{
     position: absolute;
-    background: rgba(0, 0, 0, 0.01);
+    background: rgba(0, 0, 0, 0.05);
     content: "";
     top: 0; 
     left: 0;
     width: 100%;
     height: 100%;
 }
+    
+/* HERO SECTION AVOCADO */
+
+
+
+/* HERO SECTION SHOPPERS */
+/* CONTENTS 
+.test-two{
+    background-color: #F4F1F2;
+    height: 695px;
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+}
+#hero-background{
+    width: 100%;
+    height: 690px;
+    display: block;
+    object-fit: cover;
+    object-position: center top;
+}
+.hero-main-text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'roboto', sans-serif;
+}
+#slogan-text{
+    top: 80px;
+    left: 215px;
+    text-align: left;
+    font-size: 50px;
+    z-index: 2;
+    font-family: 'roboto', sans-serif;
+
+}
+.hero-sub-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    color: black; 
+    text-align: left;
+}
+#hero-subheader-one{
+    top: 215px;
+    left: 215px;
+    text-align: left;
+    font-size: 20px;
+    z-index: 2;
+    font-family: 'roboto', sans-serif;
+}
+#avocado-hero-image{
+    height: 725px;
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; 
+    top: 0;
+    right: -50px;
+    display: inline-block;
+    position: absolute;
+}
+#hero-corner-leaf{
+    height: 600px;
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; 
+    top: 100px;
+    left: 0px;
+    display: inline-block;
+    position: absolute;
+}
+.test-two::after{
+    position: absolute;
+    background: rgba(222, 219, 219, 0.73);
+    content: "";
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+*/
+/* HERO SECTION SHOPPERS */
