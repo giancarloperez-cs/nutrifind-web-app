@@ -76,6 +76,7 @@ li a{
     width: 100%;
     justify-content: space-evenly;
     height: 100%;
+    position: sticky;
 }
 #hero-image{
     width: 100%;
@@ -115,4 +116,8 @@ li a{
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+}
+#healthy-bowl{
+    height: 40px;
+    width: ;
 }
