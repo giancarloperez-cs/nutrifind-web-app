@@ -32,7 +32,7 @@ li a{
     align-items: center;
 }
 .light-green {
-    color: #9CB08D;
+    color: #223e26;
 }
 /* NAVBAR STYLES */
 /* NAVBAR STYLES */
@@ -46,7 +46,7 @@ li a{
     padding-top: .75rem;
     text-align: center;
     /*background-color: rgb(220, 223, 236);  lavender web */
-    background-color: #d9e1db;
+    background-color: #a1b4a2;
     width: 100%;   
     z-index: 100;
 }
@@ -54,8 +54,8 @@ li a{
     display: flex;
     flex-direction:row;
     align-items: start;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     position: absolute;
     cursor: pointer;
     top: 10px;
@@ -65,8 +65,8 @@ li a{
     display: flex;
     flex-direction:row;
     align-items: end;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     position: absolute;
     cursor: pointer;
     top: 10px;
@@ -84,7 +84,6 @@ li a{
     height: 100%;
     position: sticky;
     font-family: 'roboto', sans-serif;
-
 }
 /* HERO SECTION STYLES */
 /* HERO SECTION STYLES */
@@ -118,7 +117,7 @@ li a{
     position: absolute;
     color: black; 
     font-family: 'roboto', sans-serif;
-    top: 210px;
+    top: 225px;
     left: 50px;
     text-align: left;
     font-size: 20px;
@@ -130,8 +129,8 @@ li a{
     max-width: 100%;
     display: block;
     margin: 0 auto; 
-    top: 35px;
-    right: -10px;
+    top: 55px;
+    right: 20px;
     display: inline-block;
     position: absolute;
     z-index: 2;
@@ -147,19 +146,43 @@ li a{
 }
 .circle{
     border-radius: 50%;
-    background-color: #9CB08D;
 }
 #fly-fruit-circle{
     width: 600px;
     height: 600px;
     position: absolute;
-    top: 25px;
-    right: 0;
+    top: 45px;
+    right: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 0;
+    background-color: #a1b4a2;
 }
+.primary-button{
+    background-color: #a1b4a2;
+    color: black;
+    padding: 10px 20px;
+    border-color: transparent;
+    font-family: 'roboto', sans-serif;
+    border-radius: 4px;
+}
+#cta-button{
+    /* Call to Action button */
+    font-family: 'roboto', sans-serif;
+    position: absolute;
+    border-radius: 4px;
+    top: 355px;
+    left: 50px;
+    height: 45px;
+    width: auto;
+    font-size: 15px;
+    font-weight: bold;
+    color: #F4F1F2;
+    background-color: black;
+}
+
+
 /* HERO SECTION AVOCADO */
 
 /* HERO SECTION SHOPPERS */
